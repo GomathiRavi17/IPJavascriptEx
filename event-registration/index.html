@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <form method="post" action="#" onsubmit="return validate()">
+        <h1>Event Registration Form</h1>
+        
+        <!-- Name Input -->
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <!-- Email Input -->
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <!-- Retype Email -->
+        <label for="retype_email">Retype Email</label><br>
+        <input type="email" id="retype_email" name="retype_email"><br><br>
+        
+        <!-- Password Input -->
+        <label for="password">Create a Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <!-- Retype Password -->
+        <label for="retype_password">Retype Password</label><br>
+        <input type="password" id="retype_password" name="retype_password"><br><br>
+        
+        <!-- Terms and Conditions -->
+        <label>
+            <input type="checkbox" name="terms" required>
+            By signing up, you agree to our 
+            <a href="#service">Terms of Service</a> and 
+            <a href="#policy">Privacy Policy</a>.
+        </label><br><br>
+        
+        <!-- Submit Button -->
+        <div class="button">
+            <input type="submit" class="button" value="Set Up Account">
+        </div>
+    </form>
+</body>
+</html>
